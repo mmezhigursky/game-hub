@@ -28,7 +28,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
           <List>
             <ListItem key={genre} paddingY={"5px"}>
               <HStack>
-                <GenreListSkeleton key={genre} />
+                <GenreListSkeleton />
               </HStack>
             </ListItem>
           </List>
