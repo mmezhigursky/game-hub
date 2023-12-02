@@ -1,5 +1,5 @@
 import { HStack, Icon } from "@chakra-ui/react";
-import { Platform } from "../hooks/useGames";
+import { Platform } from "../hooks/usePlatforms";
 import {
   FaWindows,
   FaXbox,
@@ -8,8 +8,6 @@ import {
   FaApple,
 } from "react-icons/fa";
 import { SiNintendo } from "react-icons/si";
-import { GiGamepad } from "react-icons/gi";
-import { RiGamepadLine } from "react-icons/ri";
 import { MdPhoneIphone } from "react-icons/md";
 import { BsGlobe } from "react-icons/bs";
 import { FaAndroid } from "react-icons/fa";
